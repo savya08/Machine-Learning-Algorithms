@@ -9,6 +9,9 @@ Supervised learning algorithm used for computing parameters (theta) such that th
   - **Linear Regression using Stochastic Gradient Descent:**
   The gradient is computed using a single training sample.
   BGD takes steps directly towards the minima of the cost function (which is a convex function of theta), while SGD moves         towards the minima in a noisy manner and does not converge exactly to the global minima (but attains a value fairly close to   it). However, SGD is faster than BGD and is thus used while training the model using a large number of training samples.
+  - **Linear Regression using Normal Equation:**
+  It is a non-iterative algorithm used for directly finding the theta vector which minimises the cost function.
+  Formula used: theta = (X<sup>T</sup>X)<sup>-1</sup>X<sup>T</sup>y
   
 - **Logistic Regression:**
 Supervised learning algorithm used for classifying data into binary calsses such as 0/1, True/False, Yes/No. In this algorithm, parameters are computed for a desicion boundary that saperates the two classes in the best possible manner.

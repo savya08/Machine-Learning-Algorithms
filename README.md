@@ -18,3 +18,6 @@ Supervised learning algorithm used for classifying data into binary calsses such
   
 - **K-Nearest Neighbours:**
 Supervised learning algorithm used for classification of data into a number of classes. A given test point is classified on the basis of the classes of k training points nearest to it.
+
+- **K-Means Clustering:**
+Unsupervised learning algorithm used for clustering data. The idea is to iteratively find k centroids for k clusters on the basis of the (unlabeled) training data available. Testing points are classified on the basis of their distance from the centroids - a point belongs to the cluster having its centroid nearest to it.

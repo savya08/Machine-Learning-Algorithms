@@ -21,3 +21,6 @@ Supervised learning algorithm used for classification of data into a number of c
 
 - **K-Means Clustering:**
 Unsupervised learning algorithm used for clustering data. The idea is to iteratively find k centroids for k clusters on the basis of the (unlabeled) training data available. Testing points are classified on the basis of their distance from the centroids - a point belongs to the cluster having its centroid nearest to it.
+
+- **Naive Bayes Classifiers:**
+It is a supervised learning algorithm which uses Bayes theorem to calculate the maximum posterior probability (probability of an output given some info as input - here, the probability of whether the person plays or not on a given day given the values of the attributes for the day) and thus make predictions. It assumes complete independence between the attributes - disavantage. It is quick in making predictions as no iterative parameter optimisation is needed - advantage.

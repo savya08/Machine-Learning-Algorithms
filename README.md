@@ -31,5 +31,8 @@ Unsupervised learning algorithm used for clustering data. The idea is to iterati
 - **Naive Bayes Classifiers:**
 It is a supervised learning algorithm which uses Bayes theorem to calculate the maximum posterior probability (probability of an output given some info as input - here, the probability of whether the person plays or not on a given day given the values of the attributes for the day) and thus make predictions. It assumes complete independence between the attributes - disavantage. It is quick in making predictions as no iterative parameter optimisation is needed - advantage.
 
+- **Support Vector Machines**
+A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
+
 - **Neural Network:**
 Artificial neural networks are one of the main tools used in machine learning. As the “neural” part of their name suggests, they are brain-inspired systems which are intended to replicate the way that we humans learn. Neural networks consist of input and output layers, as well as (in most cases) a hidden layer consisting of units that transform the input into something that the output layer can use. They are excellent tools for finding patterns which are far too complex or numerous for a human programmer to extract and teach the machine to recognize.
